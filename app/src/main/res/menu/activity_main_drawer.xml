@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/fragment_inicio"
+            android:icon="@drawable/ic_inicio"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/fragment_informacion"
+            android:icon="@drawable/ic_informacion"
+            android:title="Información" />
+
+        <item
+            android:id="@+id/fragment_Notas"
+            android:icon="@drawable/ic_notas"
+            android:title="Notas" />
+
+        <item
+            android:id="@+id/fragment_codigos"
+            android:icon="@drawable/ic_codigos"
+            android:title="Codigos" />
+
+        <item
+            android:id="@+id/fragment_perfil"
+            android:icon="@drawable/ic_perfil"
+            android:title="Perfil" />
+
+        <item
+            android:id="@+id/fragment_configuracion"
+            android:icon="@drawable/ic_configuracion"
+            android:title="Configuración" />
+    </group>
+</menu>
